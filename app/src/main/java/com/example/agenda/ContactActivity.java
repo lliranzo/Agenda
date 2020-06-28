@@ -21,9 +21,5 @@ public class ContactActivity extends AppCompatActivity {
         recycler.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false));
 
         ListDatos=new ArrayList<String>();
-        for(int i=0;i<50; i++){
-            ListDatos.add("Datos"+i+"Ploa");
-        }
-
     }
 }
